@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+
+        .conteudo{
+            background: blue;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            float:  left;
+        }
+
+        
+
+        .conteudo1{
+            background: red;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            float:  left;
+        }
+        .clear{
+            clear: both;
+        }
+
+        .principal{
+            
+            background: green;
+            border: 1px solid gray;
+            margin-top: 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="principal">
+
+
+    <div class="conteudo">
+        conteudo 1
+    </div>
+
+    <div class="conteudo">
+        conteudo 2
+    </div>
+
+    <div class="conteudo">
+        conteudo 3
+    </div>
+
+    <div class="clear"></div><!--Essa DIV limpa o fluxo do elemento flutuante-->
+
+</div>
+
+<div class="clear"></div>
+
+<div class="principal">
+
+
+    <div class="conteudo1">
+        conteudo 4
+    </div>
+
+    <div class="conteudo1">
+        conteudo 5
+    </div>
+
+    <div class="conteudo1">
+        conteudo 6
+    </div>
+
+    <div class="clear"></div><!--Essa DIV limpa o fluxo do elemento flutuante-->
+
+</div>
+
+
+<div class="principal">
+
+
+    <div class="conteudo">
+        conteudo 1
+    </div>
+
+    
+    <div class="conteudo">
+        conteudo 2
+    </div>
+
+    <div class="conteudo">
+        conteudo 3
+    </div>
+
+    <p class="clear">
+    Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos
+    </p>
+
+</div>
+
+
+
+</body>
+</html>
