@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    border-bottom: 2px solid black;
+    font-size: 100%;
+}
+
+   .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif ;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    
+    padding: 8px;
+}
+
+.imagem-cabecalho {
+    height: 324px;
+    width: 576px;
+    margin-left: 130px;
+ }
+
+.titulo {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: black;
+    font-weight: 400;
+    font-size: 48px;
+}

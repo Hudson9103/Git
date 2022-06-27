@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <title>Formulario Formatação / Atualização Maquina</title>
+</head>
+<body>
+
+
+    <div class="container">
+
+        <style>
+            h2{font-weight: bold;}
+            h1{font-weight: bold;}
+            
+        </style>
+
+    <div><h1 id="titulo" >CHECKLIST FORMATAÇÃO / PREPARAÇÃO</h1></div>    
+        <br>
+    
+        <div class="row align-items-start">
+          <div class="col01">
+            
+            <h2 id="subtitulo">Softwares</h2>
+            <br>
+    <label class="labelprincipal">TeamViewer 12 Host</label>
+    <label><input type="radio" name="teamviewer" value="true"> Sim</label>
+    <label><input type="radio" name="teamviewer" value="false"> Não</label>
+            <br>
+    <label class="labelprincipal">Anydesk </label>
+    <label><input type="radio" name="anydesk" value="true"> Sim</label>
+    <label><input type="radio" name="anydesk" value="false"> Não</label>
+            <br>
+            
+    <label class="labelprincipal">Microsoft Office 365 </label>
+    <label><input type="radio" name="office" value="true"> Sim</label>
+    <label><input type="radio" name="office" value="false"> Não</label>
+            <br>
+           
+    <label class="labelprincipal">Google Chrome </label>
+    <label><input type="radio" name="google" value="true"> Sim</label>
+    <label><input type="radio" name="google" value="false"> Não</label>
+            <br>
+          
+    <label class="labelprincipal">Winrar </label>
+    <label><input type="radio" name="winrar" value="true"> Sim</label>
+    <label><input type="radio" name="winrar" value="false"> Não</label>
+            <br>
+           
+    <label class="labelprincipal">PDF Reader </label>
+    <label><input type="radio" name="pdf" value="true"> Sim</label>
+    <label><input type="radio" name="pdf" value="false"> Não
+    </label>
+            <br>
+          
+    <label class="labelprincipal">Antivirus </label>
+    <label><input type="radio" name="antivirus" value="true"> Sim</label>
+    <label><input type="radio" name="antivirus" value="false"> Não</label>
+            <br>
+          
+    <label class="labelprincipal">SAP </label>
+    <label><input type="radio" name="sap" value="true"> Sim</label>
+    <label><input type="radio" name="sap" value="false"> Não</label>
+            <br>
+         
+    <label class="labelprincipal">OCS Inventory </label>
+    <label><input type="radio" name="ocs" value="true"> Sim</label>
+    <label><input type="radio" name="ocs" value="false"> Não</label>
+            <br>
+           
+    <label class="labelprincipal">MultiClubes </label>
+    <label><input type="radio" name="multiclubes" value="true"> Sim</label>
+    <label><input type="radio" name="multiclubes" value="false"> Não</label>
+          </div>
+
+    <div class="col02">
+            <h2 id="subtitulo">Configurações</h2>
+            <br>
+    <label class="labelprincipal">Drives </label>
+    <label><input type="radio" name="drives" value="true"> Sim</label>
+    <label><input type="radio" name="drives" value="false"> Não</label>
+        <br>
+       
+    <label class="labelprincipal">Backup </label>
+    <label><input type="radio" name="backup" value="true"> Sim</label>
+    <label><input type="radio" name="backup" value="false"> Não</label>
+        <br>
+     
+    <label class="labelprincipal">Atualizar Windows Update </label>
+    <label><input type="radio" name="windowsupdate" value="true"> Sim</label>
+    <label><input type="radio" name="windowsupdate" value="false"> Não</label>
+        <br>
+       
+    <label class="labelprincipal">Usuario Local (SEP) </label>
+    <label><input type="radio" name="usuariolocal" value="true"> Sim</label>
+    <label><input type="radio" name="usuariolocal" value="false"> Não</label>
+        <br>
+       
+    <label class="labelprincipal">Hostname </label>
+    <label><input type="radio" name="hostname" value="true"> Sim</label>
+    <label><input type="radio" name="hostname" value="false"> Não</label>
+        <br>
+     
+    <label class="labelprincipal">Dominio ( Se necessario) </label>
+    <label><input type="radio" name="dominio" value="true"> Sim</label>
+    <label><input type="radio" name="dominio" value="false"> Não</label>
+        <br>
+       
+    <label class="labelprincipal">Confgurar E-mail (Outlook) </label>
+    <label><input type="radio" name="configuraremail" value="true"> Sim</label>
+    <label><input type="radio" name="configuraremail" value="false"> Não</label>
+        <br>
+      
+    <label class="labelprincipal">Impressora (reter impressão) </label>
+    <label><input type="radio" name="impressora" value="true"> Sim</label>
+    <label><input type="radio" name="impressora" value="false"> Não</label>
+        <br>
+       
+    <label class="labelprincipal">Mapear pasta de rede </label>
+    <label><input type="radio" name="pastaderede" value="true"> Sim</label>
+    <label><input type="radio" name="pastaderede" value="false"> Não</label>
+    </div>
+          </div>
+        <br>
+     
+    <div  class="row align-items-center">
+    <div class="col03">
+        <h2 id="subtitulo">Coleta das Informações</h2>
+        <br>
+    <label class="labelprincipal">Localização</label><input type="text" name="localizacao" class="coletainput">
+        <br>
+    
+    <label class="labelprincipal">Departamento</label><input type="text" name="departamento" class="coletainput"required>
+        <br>
+     
+    <label class="labelprincipal">Usuário</label><input type="text" name="usuario" class="coletainput" required>
+        <br>
+       
+    <label class="labelprincipal">Usuário Local</label><input type="text" name="usuariolocal" class="coletainput">
+        <br>
+ 
+    <label class="labelprincipal">Maquina/Modelo</label><input type="text" name="maquina" class="coletainput">
+        <br>
+    
+    <label class="labelprincipal">Processador</label><input type="text" name="processador" class="coletainput">
+        <br>
+    
+    <label class="labelprincipal">Monitor Modelo</label><input type="text" name="monitormodelo" class="coletainput">
+        <br>
+  
+    <label class="labelprincipal">Monitor N/S</label><input type="text" name="nsmonitor" class="coletainput">
+        <br>
+   
+    <label class="labelprincipal">Patimonio Monitor</label><input type="text" name="patrimoniomonitor" class="coletainput"required>
+        <br>
+      
+    <label class="labelprincipal">Windows</label>
+         <select id="windows">
+            <option></option>
+            <option>Windows 10</option>
+            <option>Windows 7</option>
+            <option>Windows 8</option>
+            <option>Windows XP</option>
+            <option>Windows Server 2012</option>
+            <option>MAC OS</option>
+            <option>Linux</option>
+        </select> 
+        <br>
+    
+    <label class="labelprincipal">Hostname</label><input type="text" name="hostname" class="coletainput" required>
+        <br>
+     
+    <label class="labelprincipal">Patrimônio PC</label><input type="text" name="patrimoniopc" class="coletainput" required>
+        <br>
+     
+    <label class="labelprincipal">PC N/S</label><input type="text" name="nspc" class="coletainput">
+        <br>
+    
+    <label class="labelprincipal">TeamViewer ID</label><input type="text" name="teamviewerid" class="coletainput">
+         <br>
+      
+    <label class="labelprincipal">Anydesk ID</label><input type="text" name="anydeskid" class="coletainput">
+         <br>
+    
+    <label class="labelprincipal">Conta Office</label><input type="email" name="contaoffice" class="coletainput">
+         <br>
+       
+    </div>
+      <div class="col04 ">
+        <br>
+        <label class="labelprincipal">Técnico Responsavel</label>
+         <select id="windows">
+            <option></option>
+            <option>Hudson Ulisses</option>
+            <option>João Paulo</option>
+            <option>Lucas Rios</option>
+            <option>Marcelo Drobina</option>
+            <option>Aprendiz T.I</option>
+            <option>Cleberson Fontoura</option>
+        </select> 
+        <br>
+        <br>
+        <label class="labelprincipal">Observação</label> <textarea row="6" style="width: 26em;" id="observacao" name="observacao"></textarea>
+        <input id="date" type="date">
+        <br>
+        <br>
+        <button class="btn btn-primary" type="submit">Enviar</button> 
+        <button class="btn btn-primary" type="submit">Cancelar</button>
+    </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
