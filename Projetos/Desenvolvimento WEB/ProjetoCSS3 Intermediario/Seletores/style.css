@@ -1,0 +1,59 @@
+/*{
+  border: 1px solid red;  
+} */
+
+
+body{
+    
+    background-image: url(img/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*********************************************************
+Seletor de texto 
+h1 {
+    color: green;
+} */
+
+
+/*********************************************************
+Seletor de Classe 
+.verde{
+    color: green;
+} 
+
+p.verde{
+    color: green;
+} */
+
+
+/*********************************************************
+Seletor de filho 
+
+li>span>a{
+    color: red;
+    text-decoration: none;
+} */
+
+
+/*********************************************************
+Seletor descendente (link que esta dentro da div) 
+div a {
+    color: green;
+    text-decoration: none;
+} */
+
+
+/*********************************************************
+Seletor de irmão adjacente (ele so vai funcionar se o elemento p estiver após o h1) 
+h1+p{
+    color: red;
+} */
+
+
+/*********************************************************
+Seletor de irmão geral (serão selecionados somente os elementos irmãos do h1)*/
+h1~p{
+    color: red;
+}
