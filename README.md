@@ -1,10 +1,10 @@
 # Git
 Projetos Git
-# Name
+# Nome do projeto
 
 Foobar is a Python library for dealing with word pluralization.
 
-## Description - Installation
+## Descrição do Projeto - Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
@@ -12,9 +12,15 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 pip install foobar
 ```
 
-## Badges
-<p aling="center">
-  <img width="470 src="">
+## Imagem e referência do projeto
+
+##Imagem
+
+<p align="center">
+  <img src="https://github.com/Hudson9103/Git/blob/2a9d0bec25c2a0d05ff9b2f323057b9fef529d79/Projetos/imagens/imagem1.png" width="300" title="hover text">
+</p>
+
+![alt text](https://github.com/Hudson9103/Git/blob/2a9d0bec25c2a0d05ff9b2f323057b9fef529d79/Projetos/imagens/imagem1.png)
 
 
 ```python
